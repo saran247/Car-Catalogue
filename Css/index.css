@@ -1,0 +1,82 @@
+body{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:BLACK;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    top: auto;
+    width: 100%;
+
+}
+ul{
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+ul li a:hover{
+    color: rgb(250, 202, 97);
+    
+}
+#Models{
+    display:flex;
+    padding: 10px;
+    margin:auto;
+}
+.Model{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+.Model:hover{
+    border: 2px;
+    border-style:ridge;
+    border-color:tomato;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 5px black;
+ 
+}
+button{
+    background-color: black;
+    border-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+button:hover{
+    background-color: tomato;
+}
+
+footer{
+    background-color:black;
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+
+}
