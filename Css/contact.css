@@ -4,12 +4,17 @@ body{
     padding: 0;
 }
 header{
-    background-color:BLACK;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    width: 100%;
-    top: 0;
+    
+        background-color:BLACK;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        top: 0;
+        width: 100%;
+        box-sizing: border-box;
+        position: fixed;
+        
+    
 
 }
 ul{
@@ -33,7 +38,7 @@ ul li a:hover{
 }
 #contacts{
     display: flex;
-    padding: 20px;
+    padding: 40px;
     justify-content: center;
     margin: 20px;
     

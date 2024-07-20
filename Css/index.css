@@ -6,10 +6,13 @@ body{
 header{
     background-color:BLACK;
     color: white;
-    padding: 25px;
+    padding: 15px;
     text-align: center;
     top: 0;
     width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    
 
 }
 ul{
@@ -33,8 +36,8 @@ ul li a:hover{
 }
 #Models{
     display:flex;
-    padding: 10px;
-    margin:auto;
+    padding: 100px;
+    margin:20px;
 }
 .Model{
     border: 2px;
