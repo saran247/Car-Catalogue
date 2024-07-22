@@ -29,7 +29,7 @@ ul li a:hover{
     padding: 10px;
     height: 480px;
     width: 310px;
-    margin: 100px auto auto auto;
+    margin :auto;
     justify-content: center;
     text-align: center;
 }
